@@ -4,13 +4,13 @@
 
 Ashan Weather is a web application that provides real-time weather information and forecasts for locations around the world. It offers both current weather conditions and a multi-day weather forecast to help you plan your activities accordingly.
 
-**Live Demo:** [Ashan Weather](Link to demo will be uploaded shortly)
+**Live Demo:** [Ashan Weather](https://ashan-weather-9wss7vw1i-mohamed-ashraaaf.vercel.app/)
 
 **Author:** Mohamed Ashraf
 
 **Author's LinkedIn:** [Mohamed Ashraf LinkedIn](www.linkedin.com/in/mohamed-ashraaaf)
 
-**Final Project Blog Article:** [Read Blog Article](Link to blogpost of Ashan)
+**Final Project Blog Article:** [Read Blog Article](https://medium.com/@mohamed.ashraaaf/ashan-weather-a-journey-of-weather-exploration-23ab4b4d8719)
 
 ![Ashan Weather Screenshot](https://i.ibb.co/MRVNSDY/Capture.png)
 
