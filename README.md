@@ -17,18 +17,18 @@ Ashan Weather is a web application that provides real-time weather information a
 ## Installation
 
 To run Ashan Weather locally, follow these steps:
-
+```bash
 # Clone the repository to your local machine:
-```git clone https://github.com/yourusername/Ashan_weather.git
-```
+git clone https://github.com/yourusername/Ashan_weather.git
+
 # Navigate to the project directory:
-```cd Ashan_weather
-```
+cd Ashan_weather
+
 # Install the project dependencies:
-```npm install
-```
+npm install
+
 # Start the development server:
-```npm start
+npm start
 ```
 Open your web browser and visit http://localhost:3000 to view the application.
 
