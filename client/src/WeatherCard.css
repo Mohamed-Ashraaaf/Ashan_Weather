@@ -1,0 +1,78 @@
+/* WeatherCard.css */
+.weather-card {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  background-color: #70678b;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-info {
+  padding: 10px;
+}
+
+.forecast-container {
+  display: flexbox;
+  flex-direction: row; /* Change this to row */
+  gap: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+}
+
+.forecast-cards {
+  display: flex; /* Display the forecast cards horizontally */
+  flex-direction: row; /* Arrange them in a row */
+  gap: 10px; /* Adjust the gap between cards as needed */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+h1 {
+  font-family: 'Pacifico', cursive; /* Choose a Google Font or a custom font */
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: #333; /* Choose a color */
+  background-color: #fff; /* Background color */
+  padding: 10px 20px; /* Add padding to make it visually appealing */
+  border-radius: 8px; /* Add rounded corners */
+  text-align: center; /* Center-align the text */
+}
+
+label {
+  font-family: 'Raleway', sans-serif; /* Choose a font */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #dba72f; /* Choose a color */
+}
+
+input[type="text"] {
+  padding: 10px; /* Add padding for spacing inside the input */
+  border: 1px solid #ccc; /* Add a border to the input */
+  border-radius: 5px; /* Add rounded corners to the input */
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* Choose a background color */
+  color: #fff; /* Choose a text color */
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 1rem; /* Adjust the font size as needed */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.project-description {
+  font-family: 'Raleway', sans-serif; /* Choose a font */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #c12020; /* Choose a color */
+  text-align: center; /* Center-align the text */
+  margin-top: 10px; /* Add some space between the title and description */
+}
