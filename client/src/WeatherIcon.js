@@ -1,4 +1,3 @@
-// WeatherIcon.js
 import React from 'react';
 import './WeatherIcon.css';
 

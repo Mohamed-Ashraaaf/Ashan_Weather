@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Mesho Weather</h1>
+      <h1>Ashan Weather</h1>
       <p className="project-description">For anyone interested in weather</p>
       <form
         onSubmit={(e) => {

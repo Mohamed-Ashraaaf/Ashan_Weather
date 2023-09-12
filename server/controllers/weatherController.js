@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_KEY = 'c102208abd50205398f59195afc89ead'; // Replace with your actual API key
+const API_KEY = 'c102208abd50205398f59195afc89ead';
 const BASE_URL = 'http://api.openweathermap.org/data/2.5/weather';
 const FORECAST_URL = 'http://api.openweathermap.org/data/2.5/forecast';
 

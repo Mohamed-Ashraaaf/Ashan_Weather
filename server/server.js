@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors'); // Add this line
+const cors = require('cors');
 const axios = require('axios');
 const app = express();
-const PORT = process.env.PORT || 5000; // You can choose any available port number
+const PORT = process.env.PORT || 5000;
 
 app.use(cors()); // Add this line to enable CORS for all routes
 
@@ -15,7 +15,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-const mongoURI = 'mongodb://127.0.0.1:27017/weather_app'; // Change 'weather_app' to your desired database name
+const mongoURI = 'mongodb://127.0.0.1:27017/weather_app';
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
